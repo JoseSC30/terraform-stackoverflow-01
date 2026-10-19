@@ -1,0 +1,8 @@
+# El proveedor AWS obtiene las credenciales desde AWS CLI, variables de entorno
+# o un rol IAM. No agregues access_key ni secret_key a este archivo.
+aws_region        = "us-east-2"
+availability_zone = "us-east-2a"
+instance_type     = "t2.micro"
+ami_id            = "ami-09519cc56eb20524a"
+key_name          = "mi-llave-ec2"
+public_key_path   = "C:/Users/tu-usuario/.ssh/aws_ec2_key.pub"
